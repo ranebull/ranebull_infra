@@ -1,6 +1,9 @@
 dist: bionic
 os: linux
 language: shell
-
 before_install:
-  - curl https://raw.githubusercontent.com/ranebull/learning_devops/2019-02/run.sh | bash
+- curl https://raw.githubusercontent.com/ranebull/learning_devops/2019-02/run.sh |
+  bash
+notifications:
+  slack:
+    secure: 5iVAY4hPPX66lHR6yAIOkARMmHQHtx3FbQwnibGLFbTXlPY6xXFY1iAE9RXKwQ/wiXd4PlRdh2AqfYxxz4HS2VnQfxqiYilRYLoZXI6BmFLYmVRvROGsoByqrw11FBZuzDGvyb2nm8xhxVlDcN6fzCd1aRNKgsbYqH+VarhJD8t8Fz/OSUi3uo25ixPHNwBx11UuwcSY8HsVa4KhwlnFN2F7vXnr7BVav9kw4yEZBj+qcpK1ay2QkMJT31x5NFg45cdVZn19EzBilT4TkEbGbmLNzA3RVYJ1q7H7x2YtXgxMjwEHGxOy9ddsO6Uh2xYRmne+3HxgspfbWmq0UgVjS6H9qPeE3FZWgmQ76vSYCAkyyi8YHeEcBXHWGydnkStbWUCmKwqgYvVs3OmEGS5Zdycyr4sFhDlHQMoMdmotI3wjkegBw+HU3GnJzm7K9dpB4lvFdghwG8zaBBu3pOEM/h1qXaRGaCpjV0pyFrw9WLhIEz8YU+YpBUE59X7HhHKiMUae7YWExTm3q5NT2F3eOvUGuSgR1Dh8H4EgvalzxB6OGAAA2PIsLjDGJD2wqDUluqbEnVYhlnU/tDP/z9JwWEkQDvfIs97VEUdc+u1DDZlgWrro/XFt/Nhn28HuojEVTNaTlMDoJi4oXO7O2LV/rrjhTdtYHuk4G/ufcHs32yU=
